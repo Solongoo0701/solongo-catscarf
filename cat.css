@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-background{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./background1.jpg);
+    background-attachment: fixed;
+}
+
+.head {
+    display: flex;
+    width: 45%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.menu {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    border-bottom: solid 1px;
+    transition: all 0.2s;
+    
+
+}
+.hvr {
+    transition: all 0.2s;
+    
+}
+.shop:hover
+{
+    color: rgb(199, 217, 59);
+    cursor: pointer;
+}
+.shop {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+}
+.hvr:hover{
+    color: rgb(199, 217, 59);
+    cursor: pointer;
+}
+.hr{
+    width: 100%;
+}
+.squirrel-svg:hover{
+    cursor: pointer;
+}
+
+.menu-dund {
+    width: 30%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+
+}
+.dund-bichig {
+    width: 80%;
+    margin: auto;
+    margin-top: 250px;
+    text-align: center;
+    font-size: 100px;
+    color: white;   
+}
+.hand{
+    font-family: 'Playfair Display SC', serif;
+}
+.dood-bichig {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: white;
+}
+.section {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section .oroolt-3{
+    width: 90%;
+    
+    margin: auto;
+    display: flex;
+    
+
+}
+.cats {
+    margin-top: 50px;
+    letter-spacing: 5px;
+}
+.sign {
+    font-size: 80px;
+    border-bottom: solid 2px;
+}
+.autumn {
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.the2 {
+    font-size: 50px;
+}
+.oroolt-3-dotor{
+    width: 400px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.oroolt-3-dotor img{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.buurunhii{
+    width: 75%;
+    height: 70%;
+    border-radius: 75%;
+    background-color: rgba(29, 26, 25, 0.5);
+    top: 50px;
+    position: absolute;
+    visibility: hidden;
+    transition: 0.4s all;
+    opacity: 0;
+}
+.oroolt-3-dotor:hover .buurunhii {
+    visibility: visible;
+    opacity: 1;
+}
+.buurunhii-dotor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.the {
+    font-size: 25px;
+}
+.clyde {
+    font-size: 40px;
+    border-bottom: solid 1px;
+    text-align: center;
+}
+.view {
+    font-size: 25px;
+    transition: all 0.3s;
+}
+.view:hover {
+    color: rgb(199, 217, 59);
+}
+.huvaalt-2 {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.dotor-halloween{
+    width: 60%;
+    display: flex;
+}
+.halloween2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.halloween2 img{
+    width: 100%;
+    height: 100%;
+}
+.halloween2:hover .buurunhii {
+    display: block;
+    cursor: pointer;
+}
+.beige {
+    width: 100%;
+    height: fit-content;
+    background-color:rgb(244, 239, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.high {
+    font-size: 75px;
+    border-bottom: solid 1px;
+}
+.text {
+    width: 50%;
+    height: fit-content;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+.text3 {
+    width: 90%;
+    /* height: 80vh; */
+    display: flex;
+    
+    
+
+}
+.text1 {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.title {
+    font-size: 40px;
+    border-bottom: solid 1px;
+}
+.width {
+    width: 350px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.back1{
+    width: 100%;
+    height: 60vh;
+    background-image: url(./background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.back2 {
+    width: 100%;
+    height: 45vh;
+    background-image: url(./background3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x:50%;
+    
+    
+}
+.the-end {
+    width: 100%;
+    height: 50vh;
+    background-color:rgb(221, 168, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+
+}
+.logo-meow{
+    width: 20%;
+    height: 200px;
+    margin: auto;
+    color: #fff;
+    
+}
+.catty {
+    transition: all 0.2s;
+    letter-spacing: 5px;
+}
+.catty:hover{
+    color:rgb(199, 217, 59);
+    cursor: pointer;
+
+}
+.icons {
+    width: 20%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+.icons-3 {
+    transition: all 0.3s;
+}
+.icons-3:hover{
+    color:  rgb(215, 78, 45);
+    cursor: pointer;
+}
+.words{
+    font-size: 20px;
+}
+.end {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(29, 26, 25, 0.5);
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+@media (max-width:1020px) 
+{
+    .head{
+     visibility: hidden;
+    }
+    .dund-bichig{
+        text-align: center;
+    }
+    .text3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .the-end{
+        display: flex;
+        justify-content: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+@media (max-width: 640px)
+{
+    .oroolt-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dotor-halloween{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+        
+}
+
